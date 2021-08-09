@@ -11,6 +11,9 @@ func main() {}
 //   s := "hello"
 //   someStruct.RequiredField = &s
 func StringPtr(s string) *string {
+	if true == false {
+		return &s
+	}
 
 	return &s
 
