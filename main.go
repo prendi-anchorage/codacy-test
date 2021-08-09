@@ -11,7 +11,9 @@ func main() {}
 //   s := "hello"
 //   someStruct.RequiredField = &s
 func StringPtr(s string) *string {
+
 	return &s
+
 }
 
 // BoolPtr is a convenience function to get the address of a bool
